@@ -1,0 +1,16 @@
+# macOS
+.DS_Store
+
+# Archivos compilados / binarios
+obj/
+principal
+*.o
+
+# Entregas / empaquetados
+EntregaTarea4.tar.gz
+
+# Resultados de tests
+test/salidas/
+
+# Si existen
+claves.txt

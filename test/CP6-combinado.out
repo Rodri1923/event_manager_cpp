@@ -1,0 +1,111 @@
+1>2>#  la cola está vacía, no debería haber ningun jugador.
+3>El jugador 0 no está en la cola de prioridad.
+4>El jugador 1 no está en la cola de prioridad.
+5>El jugador 10 no está en la cola de prioridad.
+6>El jugador 11 no está en la cola de prioridad.
+7>La cola de prioridad está vacía.
+8>#  creo Jugador 1 y agrego a cola.
+9>10>11>12>13>Jugador 1: Juan, Uruguay, 28 años
+Jugada: 1 
+Movimientos: Derecha Izquierda Arriba Abajo 
+14>15>#  ahora la cola no está vacía.
+16>La cola de prioridad no está vacía.
+17>#  el prioritario es el Jugador 1.
+18>Jugador 1: Juan, Uruguay, 28 años
+Jugada: 1 
+Movimientos: Derecha Izquierda Arriba Abajo 
+19>#  la edad de prioridad de 1 es 28.
+20>La prioridad del jugador es 28.
+21>#  elimino el jugador prioritario y luego agrego un nuevo jugador.
+22>23>#  creo Jugador 2 y agrego a cola.
+24>25>26>27>28>Jugador 2: Matias, Mexico, 25 años
+Jugada: 1 
+Movimientos: Derecha Arriba Arriba Izquierda 
+29>30>#  ahora el prioritario es el jugador 2.
+31>Jugador 2: Matias, Mexico, 25 años
+Jugada: 1 
+Movimientos: Derecha Arriba Arriba Izquierda 
+32>#  ahora elimino el jugador 2.
+33>34>#  agrego 10 jugadores a la cola.
+35>#  creo Jugador 1.
+36>37>38>39>40>Jugador 1: Juan, Uruguay, 21 años
+Jugada: 1 
+Movimientos: Derecha Izquierda Arriba Abajo 
+41>42>#  creo Jugador 2 .
+43>44>45>46>47>48>49>50>51>Jugador 2: Luis, Uruguay, 18 años
+Jugada: 1 
+Movimientos: Derecha Derecha Derecha Derecha 
+Jugada: 2 
+Movimientos: Izquierda Izquierda Izquierda Izquierda 
+Jugada: 3 
+Movimientos: Izquierda Arriba Abajo Abajo 
+52>53>#  creo Jugador 3.
+54>55>56>57>58>59>60>61>62>Jugador 3: Nicolas, Uruguay, 21 años
+Jugada: 1 
+Movimientos: Abajo Derecha Abajo Derecha 
+Jugada: 2 
+Movimientos: Izquierda Arriba Izquierda Arriba 
+Jugada: 3 
+Movimientos: Izquierda Derecha Abajo Izquierda 
+63>Comando no reconocido.
+64>65>#  creo Jugador 4 e inserto en cola.
+66>67>68>69>70>Jugador 4: Juan, Uruguay, 16 años
+Jugada: 1 
+Movimientos: Derecha Izquierda Arriba Abajo 
+71>72>#  creo Jugador 5 y agrego a cola.
+73>74>75>76>77>78>79>80>81>Jugador 5: Martin, Argentina, 14 años
+Jugada: 1 
+Movimientos: Abajo Derecha Arriba Derecha 
+Jugada: 2 
+Movimientos: Izquierda Derecha Izquierda Arriba 
+Jugada: 3 
+Movimientos: Izquierda Arriba Derecha Derecha 
+82>83>#  creo Jugador 6 y agrego a cola.
+84>85>86>87>88>Jugador 6: Jessica, Uruguay, 19 años
+Jugada: 1 
+Movimientos: Derecha Izquierda Abajo Abajo 
+89>90>#  creo Jugador 7 y agrego a cola.
+91>92>93>94>95>Jugador 7: Vanessa, Uruguay, 15 años
+Jugada: 1 
+Movimientos: Abajo Izquierda Abajo Abajo 
+96>97>#  creo Jugador 8 y agrego a cola.
+98>99>100>101>102>Jugador 8: Santiago, España, 20 años
+Jugada: 1 
+Movimientos: Derecha Izquierda Abajo Izquierda 
+103>104>#  creo Jugador 9 y agrego a cola.
+105>106>107>108>109>Jugador 9: Matias, Mexico, 25 años
+Jugada: 1 
+Movimientos: Derecha Arriba Arriba Izquierda 
+110>111>#  creo Jugador 10 y agrego a cola.
+112>113>114>115>116>Jugador 10: Florencia, Turquia, 12 años
+Jugada: 1 
+Movimientos: Derecha Abajo Abajo Arriba 
+117>118>#  el prioritario es el jugador 10.
+119>Jugador 10: Florencia, Turquia, 12 años
+Jugada: 1 
+Movimientos: Derecha Abajo Abajo Arriba 
+120>#  la edad de prioridad del jugador 5 es: 14.
+121>La prioridad del jugador es 14.
+122>#  la edad de prioridad del jugador 10 es: 12 .
+123>La prioridad del jugador es 12.
+124>#  verifico que todos los jugadores estén en la cola.
+125>El jugador 7 está en la cola de prioridad.
+126>El jugador 2 está en la cola de prioridad.
+127>El jugador 3 está en la cola de prioridad.
+128>#  verifico las edades de los jugadores.
+129>La prioridad del jugador es 15.
+130>La prioridad del jugador es 18.
+131>La prioridad del jugador es 21.
+132>#  elimino el prioritario y ahora el prioritario es el jugador 5.
+133>134>Jugador 5: Martin, Argentina, 14 años
+Jugada: 1 
+Movimientos: Abajo Derecha Arriba Derecha 
+Jugada: 2 
+Movimientos: Izquierda Derecha Izquierda Arriba 
+Jugada: 3 
+Movimientos: Izquierda Arriba Derecha Derecha 
+135>#  elimino el prioritario y ahora el prioritario es el jugador 7 .
+136>137>Jugador 7: Vanessa, Uruguay, 15 años
+Jugada: 1 
+Movimientos: Abajo Izquierda Abajo Abajo 
+138>139>Fin.

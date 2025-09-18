@@ -1,0 +1,273 @@
+1>#  creo una tabla de tamanio 15.
+2>3>#  creo 15 jugadores, los inserto en la tabla, verifico que pertenezcan y los obtengo.
+4>#  1.
+5>6>7>8>9>10>11>12>13>El jugador con nombre Jugador1 está en la tabla.
+14>Jugador 1: Jugador1, Uruguay, 11 años
+Jugada: 1 
+Movimientos: Derecha Derecha Derecha Derecha 
+Jugada: 2 
+Movimientos: Izquierda Izquierda Izquierda Izquierda 
+15>#  2.
+16>17>18>19>20>21>22>23>24>El jugador con nombre Jugador2 está en la tabla.
+25>Jugador 2: Jugador2, Uruguay, 22 años
+Jugada: 1 
+Movimientos: Izquierda Izquierda Izquierda Arriba 
+Jugada: 2 
+Movimientos: Arriba Arriba Arriba Arriba 
+26>#  3.
+27>28>29>30>31>32>33>34>35>El jugador con nombre Jugador3 está en la tabla.
+36>Jugador 3: Jugador3, Uruguay, 33 años
+Jugada: 1 
+Movimientos: Arriba Derecha Izquierda Arriba 
+Jugada: 4 
+Movimientos: Derecha Izquierda Arriba Izquierda 
+37>#  4.
+38>39>40>41>42>43>44>45>46>El jugador con nombre Jugador4 está en la tabla.
+47>Jugador 4: Jugador4, Uruguay, 44 años
+Jugada: 2 
+Movimientos: Arriba Derecha Izquierda Derecha 
+Jugada: 4 
+Movimientos: Izquierda Arriba Derecha Izquierda 
+48>#  5.
+49>50>51>52>53>54>55>56>57>El jugador con nombre Jugador5 está en la tabla.
+58>Jugador 5: Jugador5, Uruguay, 55 años
+Jugada: 1 
+Movimientos: Izquierda Derecha Izquierda Derecha 
+Jugada: 2 
+Movimientos: Arriba Derecha Izquierda Derecha 
+59>#  6.
+60>61>62>63>64>65>66>67>68>El jugador con nombre Jugador6 está en la tabla.
+69>Jugador 6: Jugador6, Uruguay, 66 años
+Jugada: 2 
+Movimientos: Derecha Izquierda Arriba Derecha 
+Jugada: 3 
+Movimientos: Derecha Izquierda Derecha Izquierda 
+70>#  7.
+71>72>73>74>75>76>77>78>79>El jugador con nombre Jugador7 está en la tabla.
+80>Jugador 7: Jugador7, Uruguay, 77 años
+Jugada: 1 
+Movimientos: Izquierda Arriba Derecha Izquierda 
+Jugada: 7 
+Movimientos: Derecha Izquierda Derecha Izquierda 
+81>#  8.
+82>83>84>85>86>87>88>89>90>El jugador con nombre Jugador8 está en la tabla.
+91>Jugador 8: Jugador8, Uruguay, 88 años
+Jugada: 1 
+Movimientos: Izquierda Arriba Arriba Arriba 
+Jugada: 2 
+Movimientos: Derecha Izquierda Arriba Abajo 
+92>#  9.
+93>94>95>96>97>98>99>100>101>El jugador con nombre Jugador9 está en la tabla.
+102>Jugador 9: Jugador9, Uruguay, 32 años
+Jugada: 1 
+Movimientos: Izquierda Izquierda Izquierda Arriba 
+Jugada: 3 
+Movimientos: Izquierda Izquierda Izquierda Izquierda 
+103>#  10.
+104>105>106>107>108>109>110>111>112>El jugador con nombre Jugador1c está en la tabla.
+113>Jugador 10: Jugador1c, Uruguay, 51 años
+Jugada: 1 
+Movimientos: Derecha Abajo Abajo Abajo 
+Jugada: 2 
+Movimientos: Arriba Derecha Izquierda Derecha 
+114>#  11.
+115>116>117>118>119>120>121>122>123>El jugador con nombre Jugador1d está en la tabla.
+124>Jugador 11: Jugador1d, Uruguay, 14 años
+Jugada: 2 
+Movimientos: Arriba Izquierda Izquierda Arriba 
+Jugada: 4 
+Movimientos: Izquierda Derecha Derecha Izquierda 
+125>#  12.
+126>127>128>129>130>131>132>133>134>El jugador con nombre Jugador1e está en la tabla.
+135>Jugador 12: Jugador1e, Uruguay, 12 años
+Jugada: 2 
+Movimientos: Arriba Arriba Arriba Arriba 
+Jugada: 4 
+Movimientos: Derecha Derecha Derecha Derecha 
+136>#  13.
+137>138>139>140>141>142>143>144>145>El jugador con nombre Jugador1f está en la tabla.
+146>Jugador 13: Jugador1f, Uruguay, 43 años
+Jugada: 2 
+Movimientos: Izquierda Izquierda Izquierda Izquierda 
+Jugada: 4 
+Movimientos: Abajo Abajo Abajo Abajo 
+147>#  14.
+148>149>150>151>152>153>154>155>156>El jugador con nombre Jugador1g está en la tabla.
+157>Jugador 14: Jugador1g, Uruguay, 41 años
+Jugada: 3 
+Movimientos: Arriba Derecha Arriba Derecha 
+Jugada: 4 
+Movimientos: Izquierda Izquierda Izquierda Derecha 
+158>#  15.
+159>160>161>162>163>164>165>166>167>El jugador con nombre Jugador1h está en la tabla.
+168>Jugador 15: Jugador1h, Uruguay, 15 años
+Jugada: 3 
+Movimientos: Derecha Izquierda Derecha Izquierda 
+Jugada: 23 
+Movimientos: Izquierda Arriba Derecha Izquierda 
+169>#  imprimo la tabla en el orden que quedaron insertados.
+170>Jugador 1: Jugador1, Uruguay, 11 años
+Jugada: 1 
+Movimientos: Derecha Derecha Derecha Derecha 
+Jugada: 2 
+Movimientos: Izquierda Izquierda Izquierda Izquierda 
+1/11/2022
+Jugador 2: Jugador2, Uruguay, 22 años
+Jugada: 1 
+Movimientos: Izquierda Izquierda Izquierda Arriba 
+Jugada: 2 
+Movimientos: Arriba Arriba Arriba Arriba 
+2/11/2022
+Jugador 3: Jugador3, Uruguay, 33 años
+Jugada: 1 
+Movimientos: Arriba Derecha Izquierda Arriba 
+Jugada: 4 
+Movimientos: Derecha Izquierda Arriba Izquierda 
+3/11/2022
+Jugador 4: Jugador4, Uruguay, 44 años
+Jugada: 2 
+Movimientos: Arriba Derecha Izquierda Derecha 
+Jugada: 4 
+Movimientos: Izquierda Arriba Derecha Izquierda 
+4/11/2022
+Jugador 5: Jugador5, Uruguay, 55 años
+Jugada: 1 
+Movimientos: Izquierda Derecha Izquierda Derecha 
+Jugada: 2 
+Movimientos: Arriba Derecha Izquierda Derecha 
+5/11/2022
+Jugador 6: Jugador6, Uruguay, 66 años
+Jugada: 2 
+Movimientos: Derecha Izquierda Arriba Derecha 
+Jugada: 3 
+Movimientos: Derecha Izquierda Derecha Izquierda 
+6/11/2022
+Jugador 7: Jugador7, Uruguay, 77 años
+Jugada: 1 
+Movimientos: Izquierda Arriba Derecha Izquierda 
+Jugada: 7 
+Movimientos: Derecha Izquierda Derecha Izquierda 
+7/11/2022
+Jugador 8: Jugador8, Uruguay, 88 años
+Jugada: 1 
+Movimientos: Izquierda Arriba Arriba Arriba 
+Jugada: 2 
+Movimientos: Derecha Izquierda Arriba Abajo 
+8/11/2022
+Jugador 9: Jugador9, Uruguay, 32 años
+Jugada: 1 
+Movimientos: Izquierda Izquierda Izquierda Arriba 
+Jugada: 3 
+Movimientos: Izquierda Izquierda Izquierda Izquierda 
+9/11/2022
+Jugador 10: Jugador1c, Uruguay, 51 años
+Jugada: 1 
+Movimientos: Derecha Abajo Abajo Abajo 
+Jugada: 2 
+Movimientos: Arriba Derecha Izquierda Derecha 
+10/11/2022
+Jugador 11: Jugador1d, Uruguay, 14 años
+Jugada: 2 
+Movimientos: Arriba Izquierda Izquierda Arriba 
+Jugada: 4 
+Movimientos: Izquierda Derecha Derecha Izquierda 
+11/11/2022
+Jugador 12: Jugador1e, Uruguay, 12 años
+Jugada: 2 
+Movimientos: Arriba Arriba Arriba Arriba 
+Jugada: 4 
+Movimientos: Derecha Derecha Derecha Derecha 
+12/11/2022
+Jugador 13: Jugador1f, Uruguay, 43 años
+Jugada: 2 
+Movimientos: Izquierda Izquierda Izquierda Izquierda 
+Jugada: 4 
+Movimientos: Abajo Abajo Abajo Abajo 
+13/11/2022
+Jugador 14: Jugador1g, Uruguay, 41 años
+Jugada: 3 
+Movimientos: Arriba Derecha Arriba Derecha 
+Jugada: 4 
+Movimientos: Izquierda Izquierda Izquierda Derecha 
+14/11/2022
+Jugador 15: Jugador1h, Uruguay, 15 años
+Jugada: 3 
+Movimientos: Derecha Izquierda Derecha Izquierda 
+Jugada: 23 
+Movimientos: Izquierda Arriba Derecha Izquierda 
+15/11/2022
+171>#  elimino los jugadores de id par y verifico que no pertenecen.
+172>173>El jugador con nombre Jugador2 NO está en la tabla.
+174>175>El jugador con nombre Jugador4 NO está en la tabla.
+176>177>El jugador con nombre Jugador6 NO está en la tabla.
+178>179>El jugador con nombre Jugador8 NO está en la tabla.
+180>181>El jugador con nombre Jugador1c NO está en la tabla.
+182>183>El jugador con nombre Jugador1e NO está en la tabla.
+184>185>El jugador con nombre Jugador1g NO está en la tabla.
+186>#  imprimo la tabla .
+187>Jugador 1: Jugador1, Uruguay, 11 años
+Jugada: 1 
+Movimientos: Derecha Derecha Derecha Derecha 
+Jugada: 2 
+Movimientos: Izquierda Izquierda Izquierda Izquierda 
+1/11/2022
+Jugador 3: Jugador3, Uruguay, 33 años
+Jugada: 1 
+Movimientos: Arriba Derecha Izquierda Arriba 
+Jugada: 4 
+Movimientos: Derecha Izquierda Arriba Izquierda 
+3/11/2022
+Jugador 5: Jugador5, Uruguay, 55 años
+Jugada: 1 
+Movimientos: Izquierda Derecha Izquierda Derecha 
+Jugada: 2 
+Movimientos: Arriba Derecha Izquierda Derecha 
+5/11/2022
+Jugador 7: Jugador7, Uruguay, 77 años
+Jugada: 1 
+Movimientos: Izquierda Arriba Derecha Izquierda 
+Jugada: 7 
+Movimientos: Derecha Izquierda Derecha Izquierda 
+7/11/2022
+Jugador 9: Jugador9, Uruguay, 32 años
+Jugada: 1 
+Movimientos: Izquierda Izquierda Izquierda Arriba 
+Jugada: 3 
+Movimientos: Izquierda Izquierda Izquierda Izquierda 
+9/11/2022
+Jugador 11: Jugador1d, Uruguay, 14 años
+Jugada: 2 
+Movimientos: Arriba Izquierda Izquierda Arriba 
+Jugada: 4 
+Movimientos: Izquierda Derecha Derecha Izquierda 
+11/11/2022
+Jugador 13: Jugador1f, Uruguay, 43 años
+Jugada: 2 
+Movimientos: Izquierda Izquierda Izquierda Izquierda 
+Jugada: 4 
+Movimientos: Abajo Abajo Abajo Abajo 
+13/11/2022
+Jugador 15: Jugador1h, Uruguay, 15 años
+Jugada: 3 
+Movimientos: Derecha Izquierda Derecha Izquierda 
+Jugada: 23 
+Movimientos: Izquierda Arriba Derecha Izquierda 
+15/11/2022
+188>#  agrego dos colisiones a la tabla.
+189>190>191>192>193>194>195>196>197>El jugador con nombre Juga1dor está en la tabla.
+198>Jugador 20: Juga1dor, Uruguay, 23 años
+Jugada: 1 
+Movimientos: Izquierda Arriba Izquierda Arriba 
+Jugada: 4 
+Movimientos: Derecha Derecha Derecha Derecha 
+199>200>201>202>203>204>205>206>207>El jugador con nombre Jugad7or está en la tabla.
+208>Jugador 72: Jugad7or, Uruguay, 72 años
+Jugada: 1 
+Movimientos: Izquierda Arriba Izquierda Arriba 
+Jugada: 4 
+Movimientos: Derecha Derecha Derecha Derecha 
+209>#  elimino dos elementos que colisionan y verifico que no pertenecen.
+210>211>El jugador con nombre Juga1dor NO está en la tabla.
+212>213>El jugador con nombre Jugador7 NO está en la tabla.
+214>#  libero la tabla.
+215>216>Fin.

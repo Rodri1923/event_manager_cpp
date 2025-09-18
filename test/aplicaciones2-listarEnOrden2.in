@@ -1,0 +1,68 @@
+# se asume un ID máximo de persona de 10
+
+crearTTablaJugadores 20
+
+# -- jugador1, id 1, 10 años --
+crearJugada
+1 1 2 3 4
+agregarEnPartida
+crearJugador 1 10 Uruguay jugador1
+insertarJugadorEnTabla
+
+# -- jugador4, id 4, 40 años --
+crearJugada
+1 1 1 1 1
+agregarEnPartida
+crearJugador 4 40 Uruguay jugador4
+insertarJugadorEnTabla
+
+# -- jugador5, id 5, 50 años
+crearJugada
+1 4 3 2 1
+agregarEnPartida
+crearJugador 5 50 Brasil jugador5
+insertarJugadorEnTabla
+
+# -- jugador7, id 7, 70 años
+crearJugada
+1 1 1 1 1
+agregarEnPartida
+crearJugador 7 70 Uruguay jugador7
+insertarJugadorEnTabla
+
+
+# -- jugador8, id 8, 80 años
+crearJugada
+1 3 3 3 3
+agregarEnPartida
+crearJugador 8 80 Uruguay jugador8
+insertarJugadorEnTabla
+
+# -- jugador2, id 2, 20 años
+crearJugada
+1 1 1 1 1
+agregarEnPartida
+crearJugador 2 20 Uruguay jugador2
+insertarJugadorEnTabla
+
+# -- jugador10, id 10, 100 años
+crearJugada
+2 2 2 2 2
+agregarEnPartida
+crearJugador 10 100 Uruguay jugador10
+insertarJugadorEnTabla
+
+# -- jugador3, id 3, 30 años
+crearJugada
+1 1 1 1 1
+agregarEnPartida
+crearJugador 3 30 Uruguay jugador3
+insertarJugadorEnTabla
+
+
+# el orden debe ser 1, 3, 4, 5, 7, 10
+listarEnOrden 6 jugador5 jugador7 jugador1 jugador3 jugador10 jugador4
+
+liberarTTablaJugadores
+
+Fin

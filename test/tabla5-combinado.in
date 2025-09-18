@@ -1,0 +1,344 @@
+# creo una tabla de tamanio 15
+crearTTablaJugadores 15
+
+# creo 15 jugadores, los inserto en la tabla, verifico que pertenezcan y los obtengo
+
+# 1
+crearPartida
+
+crearJugada
+1 1 1 1 1
+agregarEnPartida
+
+crearJugada
+2 2 2 2 2
+agregarEnPartida
+
+crearJugador 1 11 Uruguay Jugador1
+crearFecha 1/11/2022
+insertarJugadorEnTabla
+
+perteneceATTablaJugadores Jugador1
+obtenerJugadorDeTTablaJugadores Jugador1
+
+
+# 2
+crearPartida
+
+crearJugada
+1 2 2 2 3
+agregarEnPartida
+
+crearJugada
+2 3 3 3 3
+agregarEnPartida
+
+crearJugador 2 22 Uruguay Jugador2
+crearFecha 2/11/2022
+insertarJugadorEnTabla
+
+perteneceATTablaJugadores Jugador2
+obtenerJugadorDeTTablaJugadores Jugador2
+
+
+# 3
+crearPartida
+
+crearJugada
+1 3 1 2 3
+agregarEnPartida
+
+crearJugada
+4 1 2 3 2
+agregarEnPartida
+
+crearJugador 3 33 Uruguay Jugador3
+crearFecha 3/11/2022
+insertarJugadorEnTabla
+
+perteneceATTablaJugadores Jugador3
+obtenerJugadorDeTTablaJugadores Jugador3
+
+# 4
+crearPartida
+
+crearJugada
+2 3 1 2 1
+agregarEnPartida
+
+crearJugada
+4 2 3 1 2
+agregarEnPartida
+
+crearJugador 4 44 Uruguay Jugador4
+crearFecha 4/11/2022
+insertarJugadorEnTabla
+
+perteneceATTablaJugadores Jugador4
+obtenerJugadorDeTTablaJugadores Jugador4
+
+
+# 5
+crearPartida
+
+crearJugada
+1 2 1 2 1
+agregarEnPartida
+
+crearJugada
+2 3 1 2 1
+agregarEnPartida
+
+crearJugador 5 55 Uruguay Jugador5
+crearFecha 5/11/2022
+insertarJugadorEnTabla
+
+perteneceATTablaJugadores Jugador5
+obtenerJugadorDeTTablaJugadores Jugador5
+
+# 6
+crearPartida
+
+crearJugada
+3 1 2 1 2
+agregarEnPartida
+
+crearJugada
+2 1 2 3 1
+agregarEnPartida
+
+crearJugador 6 66 Uruguay Jugador6
+crearFecha 6/11/2022
+insertarJugadorEnTabla
+
+perteneceATTablaJugadores Jugador6
+obtenerJugadorDeTTablaJugadores Jugador6
+
+# 7
+crearPartida
+
+crearJugada
+7 1 2 1 2
+agregarEnPartida
+
+crearJugada
+1 2 3 1 2
+agregarEnPartida
+
+crearJugador 7 77 Uruguay Jugador7
+crearFecha 7/11/2022
+insertarJugadorEnTabla
+
+perteneceATTablaJugadores Jugador7
+obtenerJugadorDeTTablaJugadores Jugador7
+
+# 8
+crearPartida
+
+crearJugada
+2 1 2 3 4
+agregarEnPartida
+
+crearJugada
+1 2 3 3 3
+agregarEnPartida
+
+crearJugador 8 88 Uruguay Jugador8
+crearFecha 8/11/2022
+insertarJugadorEnTabla
+
+perteneceATTablaJugadores Jugador8
+obtenerJugadorDeTTablaJugadores Jugador8
+
+# 9
+crearPartida
+
+crearJugada
+3 2 2 2 2
+agregarEnPartida
+
+crearJugada
+1 2 2 2 3
+agregarEnPartida
+
+crearJugador 9 32 Uruguay Jugador9
+crearFecha 9/11/2022
+insertarJugadorEnTabla
+
+perteneceATTablaJugadores Jugador9
+obtenerJugadorDeTTablaJugadores Jugador9
+
+# 10
+crearPartida
+
+crearJugada
+1 1 4 4 4
+agregarEnPartida
+
+crearJugada
+2 3 1 2 1
+agregarEnPartida
+
+crearJugador 10 51 Uruguay Jugador1c
+crearFecha 10/11/2022
+insertarJugadorEnTabla
+
+perteneceATTablaJugadores Jugador1c
+obtenerJugadorDeTTablaJugadores Jugador1c
+
+
+# 11
+crearPartida
+
+crearJugada
+4 2 1 1 2
+agregarEnPartida
+
+crearJugada
+2 3 2 2 3
+agregarEnPartida
+
+crearJugador 11 14 Uruguay Jugador1d
+crearFecha 11/11/2022
+insertarJugadorEnTabla
+
+perteneceATTablaJugadores Jugador1d
+obtenerJugadorDeTTablaJugadores Jugador1d
+
+# 12
+crearPartida
+
+crearJugada
+4 1 1 1 1
+agregarEnPartida
+
+crearJugada
+2 3 3 3 3
+agregarEnPartida
+
+crearJugador 12 12 Uruguay Jugador1e
+crearFecha 12/11/2022
+insertarJugadorEnTabla
+
+perteneceATTablaJugadores Jugador1e
+obtenerJugadorDeTTablaJugadores Jugador1e
+
+# 13
+crearPartida
+
+crearJugada
+4 4 4 4 4
+agregarEnPartida
+
+crearJugada
+2 2 2 2 2
+agregarEnPartida
+
+crearJugador 13 43 Uruguay Jugador1f
+crearFecha 13/11/2022
+insertarJugadorEnTabla
+
+perteneceATTablaJugadores Jugador1f
+obtenerJugadorDeTTablaJugadores Jugador1f
+
+# 14
+crearPartida
+
+crearJugada
+4 2 2 2 1
+agregarEnPartida
+
+crearJugada
+3 3 1 3 1
+agregarEnPartida
+
+crearJugador 14 41 Uruguay Jugador1g
+crearFecha 14/11/2022
+insertarJugadorEnTabla
+
+perteneceATTablaJugadores Jugador1g
+obtenerJugadorDeTTablaJugadores Jugador1g
+
+# 15
+crearPartida
+
+crearJugada
+3 1 2 1 2
+agregarEnPartida
+
+crearJugada
+23 2 3 1 2
+agregarEnPartida
+
+crearJugador 15 15 Uruguay Jugador1h
+crearFecha 15/11/2022
+insertarJugadorEnTabla
+
+perteneceATTablaJugadores Jugador1h
+obtenerJugadorDeTTablaJugadores Jugador1h
+
+# imprimo la tabla en el orden que quedaron insertados
+imprimirTTablaJugadores
+
+
+# elimino los jugadores de id par y verifico que no pertenecen
+eliminarJugadorDeTTablaJugadores Jugador2
+perteneceATTablaJugadores Jugador2
+eliminarJugadorDeTTablaJugadores Jugador4
+perteneceATTablaJugadores Jugador4
+eliminarJugadorDeTTablaJugadores Jugador6
+perteneceATTablaJugadores Jugador6
+eliminarJugadorDeTTablaJugadores Jugador8
+perteneceATTablaJugadores Jugador8
+eliminarJugadorDeTTablaJugadores Jugador1c
+perteneceATTablaJugadores Jugador1c
+eliminarJugadorDeTTablaJugadores Jugador1e
+perteneceATTablaJugadores Jugador1e
+eliminarJugadorDeTTablaJugadores Jugador1g
+perteneceATTablaJugadores Jugador1g
+
+# imprimo la tabla 
+imprimirTTablaJugadores
+
+# agrego dos colisiones a la tabla
+
+crearPartida
+crearJugada
+1 2 3 2 3
+agregarEnPartida
+crearJugada
+4 1 1 1 1
+agregarEnPartida
+
+crearJugador 20 23 Uruguay Juga1dor
+crearFecha 20/11/2022
+insertarJugadorEnTabla
+
+perteneceATTablaJugadores Juga1dor
+obtenerJugadorDeTTablaJugadores Juga1dor
+
+crearPartida
+crearJugada
+1 2 3 2 3
+agregarEnPartida
+crearJugada
+4 1 1 1 1
+agregarEnPartida
+
+crearJugador 72 72 Uruguay Jugad7or
+crearFecha 27/2/2022
+insertarJugadorEnTabla
+
+perteneceATTablaJugadores Jugad7or
+obtenerJugadorDeTTablaJugadores Jugad7or
+
+# elimino dos elementos que colisionan y verifico que no pertenecen
+eliminarJugadorDeTTablaJugadores Juga1dor
+perteneceATTablaJugadores Juga1dor
+eliminarJugadorDeTTablaJugadores Jugador7
+perteneceATTablaJugadores Jugador7
+
+# libero la tabla
+liberarTTablaJugadores
+
+Fin
