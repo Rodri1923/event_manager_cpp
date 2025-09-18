@@ -1,5 +1,6 @@
-Proyecto de Agenda y Gestión de Jugadores
+#Proyecto de Agenda y Gestión de Jugadores
 ------------------------------------------
+
 Este repositorio contiene la versión final (Tarea 4) del curso Laboratorio de Programación 2 - FING (2023).
 
 El proyecto implementa distintos tipos abstractos de datos (TADs) y estructuras dinámicas en C++, como:
@@ -15,7 +16,8 @@ El proyecto implementa distintos tipos abstractos de datos (TADs) y estructuras 
 
 -------------------------------------------------------------------------------------------------------------------------------------
 
-📂 Estructura del repositorio
+##📂 Estructura del repositorio
+```
 agenda_de_eventos/
 │── include/         # Archivos de cabecera (.h)
 │── src/             # Implementaciones en C++ (.cpp)
@@ -23,37 +25,38 @@ agenda_de_eventos/
 │── Makefile         # Reglas de compilación (provisto)
 │── principal.cpp    # Programa principal (provisto)
 │── README.md
+```
 
-
-🔹 Nota: principal.cpp, el Makefile y los tests fueron provistos por los docentes.
-🔹 Los archivos .cpp en src/ son las implementaciones realizadas por mí (ver sección Autoría).
+> 🔹 Nota: principal.cpp, el Makefile y los tests fueron provistos por los docentes.  
+> 🔹 Los archivos `.cpp` en `src/` son las implementaciones realizadas por mí (ver sección Autoría).
 
 -------------------------------------------------------------------------------------------------------------------------------------
 
-⚙️ Compilación y ejecución
+##⚙️ Compilación y ejecución
 
 Compilar el proyecto:
 
+```
 make
-
+```
 
 Ejecutar el programa:
-
+```
 ./principal
-
+```
 
 Ejecutar un test de ejemplo:
-
+```
 ./principal < test/fecha1-crear-imprimir-liberar.in
-
+```
 
 Ejecutar todos los tests automáticamente:
-
+```
 make testing
-
+```
 -------------------------------------------------------------------------------------------------------------------------------------
 
-✍️ Autoría
+##✍️ Autoría
 
 Archivos que implementé yo:
 
@@ -69,10 +72,10 @@ Archivos que implementé yo:
 - src/tablaJugadores.cpp
 - src/aplicaciones.cpp
 - src/colaDePrioridadJugador.cpp
-📌 principal.cpp, el Makefile y los tests (.in / .out) fueron provistos por el curso.
+>📌 principal.cpp, el Makefile y los tests (.in / .out) fueron provistos por el curso.
 
 -------------------------------------------------------------------------------------------------------------------------------------
 
-👤 Autor
+##👤 Autor
 
 Rodrigo Navone
