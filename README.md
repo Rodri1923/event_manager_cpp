@@ -1,7 +1,7 @@
 #Proyecto de Agenda y Gestión de Jugadores
 ------------------------------------------
 
-Este repositorio contiene la versión final (Tarea 4) del curso Laboratorio de Programación 2 - FING (2023).
+Este repositorio contiene la versión final de un proyecto academico de programación.
 
 El proyecto implementa distintos tipos abstractos de datos (TADs) y estructuras dinámicas en C++, como:
 
