@@ -1,70 +1,71 @@
-#Proyecto de Agenda y Gestión de Jugadores
+#Player Management and Scheduling System
 ------------------------------------------
 
-Este repositorio contiene la versión final de un proyecto academico de programación.
+This repository contains the final implementation of an academic programming project.
 
-El proyecto implementa distintos tipos abstractos de datos (TADs) y estructuras dinámicas en C++, como:
+The project implements various abstract data types (ADTs) and dynamic structures in C++, such as:
 
-- Fechas y eventos
-- Agendas de eventos
-- Jugadas, partidas y jugadores
-- Listas (simples y dobles)
-- Pilas y colas
-- Árboles binarios de búsqueda
-- Conjuntos de identificadores
-- Aplicaciones que integran todos estos TADs
+- Dates and events
+- Event agendas
+- Moves, matches, and players
+- Lists (singly and doubly linked)
+- Stacks and queues
+- Binary search trees
+- Sets of identifiers
+- Applications that integrate all these ADTs
 
 -------------------------------------------------------------------------------------------------------------------------------------
 
-##📂 Estructura del repositorio
+##📂 Repository Structure
 ```
 agenda_de_eventos/
-│── include/         # Archivos de cabecera (.h)
-│── src/             # Implementaciones en C++ (.cpp)
-│── test/            # Casos de prueba (.in y .out)
-│   └── salidas/     # Carpeta donde se generan las salidas de los tests
-│── obj/             # Archivos objeto generados en la compilación
-│── Makefile         # Reglas de compilación (provisto)
-│── principal.cpp    # Programa principal (provisto)
+│── include/         # Header files (.h)
+│── src/             # C++ implementations (.cpp)
+│── test/            # Test cases (.in and .out)
+│   └── salidas/     # Folder where test outputs are generated
+│── obj/             # Object files generated during compilation
+│── Makefile         # Build rules (provided)
+│── principal.cpp    # Main program (provided)
 │── README.md
+│── README.es.md
 
 ```
 
-> 🔹 Nota: `principal.cpp`, el `Makefile` y los tests fueron provistos por los docentes.  
-> 🔹 Los archivos `.cpp` en `src/` son las implementaciones realizadas por mí (ver sección Autoría).  
-> 🔹 Las carpetas `obj/` y `test/salidas/` se incluyen aunque estén vacías, usando archivos `.gitkeep`, porque son necesarias para que el Makefile funcione correctamente.
+> 🔹 Note: `principal.cpp`, the `Makefile`, and the test files were provided by the instructors.  
+> 🔹 The `.cpp` files in `src/` are the implementations I developed (see Authoring section).  
+> 🔹 The `obj/` and `test/salidas/` folders are included even if empty, using `.gitkeep` files, because they are necessary for the Makefile to work correctly.
 
 -------------------------------------------------------------------------------------------------------------------------------------
 
-##⚙️ Compilación y ejecución
+##⚙️ Compilation and Execution
 
-> ⚠️ Nota: Este proyecto está pensado para un entorno Linux. Puede que la compilación en macOS o Windows requiera ajustes en el compilador o las flags de compilación.
+> ⚠️ Note: This project is intended for a Linux environment. Compilation on macOS or Windows may require adjustments to the compiler or compilation flags.
 
-Compilar el proyecto:
+Compile the project:
 
 ```
 make
 ```
 
-Ejecutar el programa:
+Run the program:
 ```
 ./principal
 ```
 
-Ejecutar un test de ejemplo:
+Run an example test:
 ```
 ./principal < test/fecha1-crear-imprimir-liberar.in
 ```
 
-Ejecutar todos los tests automáticamente:
+Run all tests automatically:
 ```
 make testing
 ```
 -------------------------------------------------------------------------------------------------------------------------------------
 
-##✍️ Autoría
+##✍️ Authorship
 
-Archivos que implementé yo:
+Files implemented by me:
 
 - `src/fecha.cpp`
 - `src/jugada.cpp`
@@ -78,10 +79,10 @@ Archivos que implementé yo:
 - `src/tablaJugadores.cpp`
 - `src/aplicaciones.cpp`
 - `src/colaDePrioridadJugador.cpp`
->📌 `principal.cpp`, el `Makefile` y los tests (.in / .out) fueron provistos por el curso.
+>📌 `principal.cpp`, the `Makefile` and the tests (.in / .out) were provided by the course.
 
 -------------------------------------------------------------------------------------------------------------------------------------
 
-##👤 Autor
+##👤 Author
 
 Rodrigo Navone
