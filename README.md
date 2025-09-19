@@ -34,6 +34,8 @@ agenda_de_eventos/
 
 ##⚙️ Compilación y ejecución
 
+> ⚠️ Nota: Este proyecto está pensado para un entorno Linux. Puede que la compilación en macOS o Windows requiera ajustes en el compilador o las flags de compilación.
+
 Compilar el proyecto:
 
 ```
