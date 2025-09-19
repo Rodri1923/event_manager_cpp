@@ -22,13 +22,17 @@ agenda_de_eventos/
 │── include/         # Archivos de cabecera (.h)
 │── src/             # Implementaciones en C++ (.cpp)
 │── test/            # Casos de prueba (.in y .out)
+│   └── salidas/     # Carpeta donde se generan las salidas de los tests
+│── obj/             # Archivos objeto generados en la compilación
 │── Makefile         # Reglas de compilación (provisto)
 │── principal.cpp    # Programa principal (provisto)
 │── README.md
+
 ```
 
-> 🔹 Nota: principal.cpp, el Makefile y los tests fueron provistos por los docentes.  
-> 🔹 Los archivos `.cpp` en `src/` son las implementaciones realizadas por mí (ver sección Autoría).
+> 🔹 Nota: `principal.cpp`, el `Makefile` y los tests fueron provistos por los docentes.  
+> 🔹 Los archivos `.cpp` en `src/` son las implementaciones realizadas por mí (ver sección Autoría).  
+> 🔹 Las carpetas `obj/` y `test/salidas/` se incluyen aunque estén vacías, usando archivos `.gitkeep`, porque son necesarias para que el Makefile funcione correctamente.
 
 -------------------------------------------------------------------------------------------------------------------------------------
 
@@ -62,19 +66,19 @@ make testing
 
 Archivos que implementé yo:
 
-- src/fecha.cpp
-- src/jugada.cpp
-- src/jugador.cpp
-- src/partida.cpp
-- src/jugadoresLDE.cpp
-- src/jugadoresABB.cpp
-- src/pilaJugador.cpp
-- src/colaJugadoresABB.cpp
-- src/conjuntoIds.cpp
-- src/tablaJugadores.cpp
-- src/aplicaciones.cpp
-- src/colaDePrioridadJugador.cpp
->📌 principal.cpp, el Makefile y los tests (.in / .out) fueron provistos por el curso.
+- `src/fecha.cpp`
+- `src/jugada.cpp`
+- `src/jugador.cpp`
+- `src/partida.cpp`
+- `src/jugadoresLDE.cpp`
+- `src/jugadoresABB.cpp`
+- `src/pilaJugador.cpp`
+- `src/colaJugadoresABB.cpp`
+- `src/conjuntoIds.cpp`
+- `src/tablaJugadores.cpp`
+- `src/aplicaciones.cpp`
+- `src/colaDePrioridadJugador.cpp`
+>📌 `principal.cpp`, el `Makefile` y los tests (.in / .out) fueron provistos por el curso.
 
 -------------------------------------------------------------------------------------------------------------------------------------
 
